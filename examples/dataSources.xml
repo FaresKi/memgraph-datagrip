@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Memgraph localhost" uuid="3b2f6a52-6d1c-4f0e-9a41-6c3e2f6f7a10">
+      <driver-ref>memgraph</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>dev.memgraph.jdbc.MemgraphDriver</jdbc-driver>
+      <jdbc-url>jdbc:memgraph://localhost:7687</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

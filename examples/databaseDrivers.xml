@@ -1,0 +1,10 @@
+<application>
+  <component name="DatabaseDriverManager" version="1">
+    <driver id="memgraph" name="Memgraph" dialect="GenericSQL" driver-class="dev.memgraph.jdbc.MemgraphDriver">
+      <url-template name="default">jdbc:memgraph://{host::localhost}?[:{port::7687}][/{database}]</url-template>
+      <option name="auto-sync" value="true" />
+      <library><url>file://$USER_HOME$/memgraph-datagrip/out/memgraph-jdbc.jar</url></library>
+      <library><url>file://$USER_HOME$/memgraph-datagrip/libs/neo4j-jdbc-full-bundle-6.15.1.jar</url></library>
+    </driver>
+  </component>
+</application>
